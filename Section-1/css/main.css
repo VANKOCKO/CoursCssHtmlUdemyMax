@@ -1,5 +1,11 @@
 *{
      font-family: sans-serif;
+       /*
+      
+         Redimensions de la box : box sizing
+        border-box permet d'inclure les dimensions
+      */
+      box-sizing: border-box;
 }
 
 #product-overview {
@@ -23,12 +29,7 @@
        padding: 10px;
        border: 5px solid black;
        margin: 10px;
-      /*
-      
-         Redimensions de la box : box sizing
-        border-box permet d'inclure les dimensions
-      */
-      box-sizing: border-box;
+    
 
 }
 
