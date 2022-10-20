@@ -1,0 +1,108 @@
+*{
+     font-family: sans-serif;
+}
+
+#product-overview {
+    background:#ff1b68;
+    /* marge interne 
+           padding: 20px;
+    */
+
+    /* Bordure 
+         border: 5px black solid;
+    */    
+    /* 
+        Marge externe
+           margin: 20px;
+    */
+
+    /* Largeur width: */
+       width: 100%;
+    /* Hauteur  height: */
+       height: 518px;
+       padding: 10px;
+       border: 5px solid black;
+       margin: 10px;
+      /*
+      
+         Redimensions de la box : box sizing
+        border-box permet d'inclure les dimensions
+      */
+      box-sizing: border-box;
+
+}
+
+#product-overview > h1 {
+    color:  white;
+    padding: 20px;
+}
+
+
+#plans > h1  {
+    color: #2ddf5c;
+    font-family: 'Anton',sans-serif;
+}  
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*Mettre une marge a 0 dans le body*/
+    margin: 0;
+}
+
+/**
+ Class
+**/
+.section-title {
+    color: #2ddf5c;
+    font-family: inherit;
+}
+
+h1 {   
+       color: black;
+       font-family: 'Anton', sans-serif;
+}
+
+/**
+    Attribute selector
+**/
+[disabled]{
+    color: red;
+}
+/**
+   Id
+**/
+#plans{
+
+}
+
+
+
+
+/***
+  Combinateur Freres
+***/   
+
+h2 + p {
+    color :red;
+}
+
+/***
+   Freres en general
+***/ 
+
+#genelaSibling ~ p {
+   color: red;
+}
+
+/***
+    Combinateur enfants
+***/
+
+#combinateurEnfant > p{
+      color:red;
+}
+
+#combinateurDescendant p {
+    color: red;
+}
+
+
