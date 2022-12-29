@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Git"
+		},
+		{
+			"path": "../../../../../React"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HtmlCss"
+	}
+}
