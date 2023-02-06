@@ -1,5 +1,17 @@
-h1,h2,h3,h4,p, li{
+h1,
+h2,
+h3,
+h4,
+p,
+li{
     font-family: sans-serif ;
+    color: #444;
+}
+h1,
+h2,
+h3
+{
+    color: #1098ad;
 }
 h1{
     font-size: 26px;
@@ -38,6 +50,9 @@ article header p {
 }
 */
 
+/* 
+id
+ */
 #author{
     font-style: italic;
     font-size: 18px;
@@ -45,6 +60,21 @@ article header p {
 #copyright{
     font-size: 16px;
 }
+ /* 
+  class 
+*/
 .related-author {
-    
+    font-size: 18px;   
+    font-weight: bold;
+}
+.related {
+    list-style: none;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+header {
+    background-color: #f7f7f7;
 }
