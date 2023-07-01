@@ -1,4 +1,11 @@
 
+/**
+ Heritence
+**/
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
 /** 
     Insert font from extern folder
 **/
@@ -11,13 +18,18 @@
     src: url('../font/milky_mania/Milky_Mania.ttf');
 }
 
-
 h1{
     color: white;
     font-family: 'Anton',sans-serif;
 }
-
-
+/**
+*{
+    font-family: sans-serif;   
+}
+h1 {
+    font-family: serif;
+}
+**/
 #product-overview{
     background: #ff1b68 ;    
 }
