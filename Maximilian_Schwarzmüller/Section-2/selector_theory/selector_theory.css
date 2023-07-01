@@ -1,0 +1,63 @@
+/**  
+     element  selector
+     def : set equal style for this element
+**/
+h1{
+    color: red ;
+}
+/** 
+  class selector 
+  def : set equal style for element within the same class  
+  class selector has more priority than element selector 
+**/
+.blog-post{
+   color: red;
+}
+/**
+ Universal selector 
+   Rarely used this one!
+**/
+*{
+     color : yellow;
+}
+
+/**
+   Id selector 
+   def: set style to one specific element 
+   Id selector has more priority than element selector and class selector   
+
+**/
+
+#main-title{
+    color: yellowgreen;
+}
+/**
+  Attribute selector 
+  def : set equal style to all element with attrubutes 
+  Attribute selector has more priority than css
+**/
+[disabled]{
+    color: red ;
+}
+ /** Checkk priority  **/
+/**   
+     Id Selector stay more priority than over 
+     After class selector 
+     End Attribute selector 
+ **/
+ /** Attributes Selector  **/
+[width]{
+     width: 400px;
+}
+/** Element Selector  **/
+img{
+    width: 500px;
+}
+/** Class Selector  **/
+.classImg{
+    width: 600px;
+}
+/** Id Selector **/
+#IdImg{
+    width: 700px;
+}

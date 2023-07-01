@@ -1,4 +1,7 @@
 
+/** 
+    Insert font from extern folder
+**/
 @font-face {
     font-family:YsabeauOffice;
     src: url('../font/Ysabeau_Office/static/YsabeauOffice-SemiBold.ttf');
@@ -8,11 +11,16 @@
     src: url('../font/milky_mania/Milky_Mania.ttf');
 }
 
-section {
-    background: #ff1b68 ;
-}
 
 h1{
     color: white;
-    font-family: 'Milky_mania';
+    font-family: 'Anton',sans-serif;
+}
+
+
+#product-overview{
+    background: #ff1b68 ;    
+}
+.section-title{
+    color: #2ddf5c;
 }
